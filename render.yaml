@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: eai6010-diabetes-microservice
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
